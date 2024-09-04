@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+/* home-outer */
+
+.home-outer{
+
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #4e4dbb 50%, #00b894 50%);
+}
+
+.home-header{
+
+    width: 80%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.header-nav{
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.header-nav ul{
+
+    list-style: none;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: baseline;
+}
+
+.header-nav ul li{
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-nav ul li a:hover{
+
+    color: #00b894;
+    text-decoration: underline;
+}
+
+.header-nav ul li:first-child{
+
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.header-info{
+
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.phone-image{
+
+    /* width: 40px;
+    height: 40px; */
+
+    /* border: 1px solid red; */
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.phone-number button{
+
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-color: #4e4dbb;
+    color: white;
+}
+
+.phone-number button:hover{
+    
+    color: black;
+    background-color: white;
+}
+
+
+/* home-outer */
