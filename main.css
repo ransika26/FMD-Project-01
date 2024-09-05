@@ -8,13 +8,15 @@
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     background: linear-gradient(to bottom right, #4e4dbb 50%, #00b894 50%);
 }
 
 .home-header{
 
-    width: 80%;
+    width: 85%;
     height: 100px;
     /* border: 1px solid red; */
     display: flex;
@@ -59,8 +61,14 @@
 
 .header-nav ul li:first-child{
 
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 50px;
+}
+
+.header-nav ul li:first-child a:hover{
+
+    text-decoration: none;
+    color: white;
 }
 
 .header-info{
@@ -71,6 +79,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    margin-right: 60px;
 }
 
 .phone-image{
@@ -107,5 +116,272 @@
     background-color: white;
 }
 
+.home-container{
+    width: 85%;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.home-container-inner{
+
+    flex: 1;
+    /* border: 1px solid red; */
+}
+
+.left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner-left{
+
+    display: flex;
+
+}
+
+.profile-image{
+
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hello-content{
+
+    margin-left: 20px;
+    width: 250px;
+    height: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: white;
+}
+
+.hello-content h1{
+    font-size: 35px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.freelance-content{
+
+    width: 500px;
+    height: 75px;
+    /* border: 1px solid red; */
+    margin-top: 15px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.freelance-content h2{
+
+    font-size: 30px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 800;
+    color: #00b894;
+}
+
+.home-button{
+
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20px;
+    background-color: #00b894;
+    font-size: 20px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    border: 2px solid #00b894;
+    
+}
+
+.home-button:hover{
+    cursor: pointer;
+    background-color: #4e4dbb;
+}
+
+.circle{
+
+    width: 350px;
+    height: 350px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: white;
+}
+
+.right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .man-image{
+
+    width: 550px;
+    height: 550px;
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/portrait-happy-excited-man-holding-laptop-computer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+} */
+
+.man-image{
+
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid red; */
+    /* background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/portrait-happy-excited-man-holding-laptop-computer.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    transform: translateX(-80px);
+}
 
 /* home-outer */
+
+
+/* about-outer */
+
+.about-outer{
+
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-inner{
+
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.image-content{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.couple-image{
+
+    width: 90%;
+    height: 70%;
+    /* border: 1px solid red; */
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/couple-working-from-home-together-sofa.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.mystory-content{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.mystory-title{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.title-content{
+
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #00b894;
+    border-radius: 15px;
+}
+
+.title-content h1{
+    font-size: 40px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+}
+
+.title-image-content{
+
+    width: 110px;
+    height: 110px;
+    /* border: 1px solid red; */
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/happy-bearded-young-man.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+.mystory-desc{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    padding-left: 40px;
+
+}
+
+.mystory-desc h1{
+    margin-top: -8px;
+    font-size: 30px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.mystory-desc p{
+    font-size: 18px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: dimgray;
+}
+
+
+
+/* about-outer */
