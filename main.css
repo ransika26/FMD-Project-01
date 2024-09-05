@@ -264,6 +264,8 @@
 /* home-outer */
 
 
+/* about-section */
+
 /* about-outer */
 
 .about-outer{
@@ -382,6 +384,108 @@
     color: dimgray;
 }
 
-
-
 /* about-outer */
+
+
+/* about-information-outer */
+
+.about-info-outer{
+
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1;
+    padding-top: 100px;
+}
+
+.about-info-inner{
+
+    width: 45%  ;
+    height: 90%;
+    /* flex: 1; */
+    /* border: 1px solid red; */
+    
+}
+
+.info-left{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.inner-table{
+    width: 90%;
+    height: 75%;
+    /* border: 1px solid red; */
+}
+
+.inner-table table {
+    width: 100%; /* Makes the table occupy the full width of the .inner-table div */
+    border-collapse: collapse; /* Optional: removes space between table cells */
+    border-color: #bdc3c7;
+}
+
+.inner-table td, .inner-table th {
+    padding: 3px; /* Add padding for better readability */
+}
+
+.inner-right{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.inner-details{
+    width: 80%;
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+.inner-details-column{
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-right-border{
+    border-right: 0.5px solid #bdc3c7;
+}
+
+.row-bottom-border{
+    border-bottom: 0.5px solid #bdc3c7;
+}
+
+.inner-details-row{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.inner-details-row h1{
+    font-size: 60px;
+    
+}
+
+.inner-details-row p{
+    font-size: 20px;
+    margin-top: -30px;
+    color: #00b894;
+}
+
+/* about-information-outer */
+
+
+
+/* about-section */
