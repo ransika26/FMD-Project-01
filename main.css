@@ -555,5 +555,293 @@
 
 /* about-companies */
 
-
 /* about-section */
+
+
+/* services-section */
+
+.services-outer{
+
+    width: 100%;
+    height: 1200px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: #ecf0f1;
+    flex-direction: column;
+
+}
+
+.services-title{
+
+    width: 70%;
+    height: 150px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b894;
+    
+}
+
+.services-image{
+
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/handshake-man-woman-after-signing-business-contract-closeup.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.services-title h1{
+
+    font-size: 50px;
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.services-inner{
+
+    width: 70%;
+    height: 800px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.services-inner-element-column{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.services-inner-element-row{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.element-row-title{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.element-row-title h1{
+
+    font-size: 35px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.price{
+
+    width: 100px;
+    height: 40px;
+    border: 1px solid #4e4dbb;
+    margin-top: 25px;
+    background-color: #4e4dbb;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.horizontal-line{
+
+    width: 90%;
+    border: 0.5px solid #ecf0f1;
+    margin-left: 20px;
+}
+
+.services-inner-element-row p{
+
+    font-size: 18px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: dimgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.services-inner-element-row button{
+
+    padding: 15px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: dimgray;
+    background-color: white;
+}
+
+
+.services-inner-element-row button:hover{
+
+    cursor: pointer;
+    background-color: #00b894;
+    color: white;
+}
+
+/* services-section */
+
+
+/* projects-section */
+
+.projects-outer{
+
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-inner{
+
+    width: 80%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.project-title{
+
+    width: 60%;
+    height: 150px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b894;
+    border-radius: 10px;
+}
+
+.projects-title-img{
+
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid red; */
+    margin-right: 30px;
+    border-radius: 50%;
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/white-desk-work-study-aesthetics.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.project-title h1{
+    font-size: 50px;
+    color: white;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.project-inner-container{
+
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.inner-container-slot{
+
+    flex: 1;
+    /* border: 1px solid red; */
+    background-color: #ecf0f1;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.inner-container-slot h5{
+
+    color: #00b894;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.inner-container-slot h1{
+
+    margin-left: 30px;
+    margin-top: -10px;
+    font-size: 35px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.slot-img{
+
+    width: 300px;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-top: 120px;
+    border-radius: 10px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(10deg);
+}
+
+.img1{
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg');
+}
+
+.img2{
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg');
+}
+
+.img3{
+    background-image: url('https://templatemo.com/templates/templatemo_578_first_portfolio/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg');
+}
+
+
+/* projects-section */
+
+
